@@ -1,0 +1,23 @@
+{
+  "env": "PROD",
+  "UAT": {
+    "log_server": "USADCSSSQLDBD09",
+    "log_db": "ARKLog",
+    "token_info": {
+      "url": "https://cotiviti-ext.oktapreview.com/oauth2/default/v1/token",
+      "client_id": "0oa154wp4kkmIncWI0h8",
+      "client_secret": "ciGs6jmeEorVvH45p99qsY4aTkRJMZpiNOTlrWIU"
+    },
+    "publisher_url": "https://ce-publisher-uat.cotiviti.com/api/v1/claim"
+  },
+  "PROD": {
+    "log_server": "USADCSSSQLDBP10.ccaintranet.com",
+    "log_db": "ARKLog",
+    "token_info": {
+      "url": "https://cotiviti-ext.okta.com/oauth2/default/v1/token",
+      "client_id": "0oabpdhgcx1i0FnqK297",
+      "client_secret": "ErhHcJKSmILJFZgO7e4uyb8YWyXZDPZSZ24-cvoS"
+    },
+    "publisher_url": "https://ce-publisher.cotiviti.com/api/v1/claim"
+  }
+}
